@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>販売戦略と市場調査</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="newspaper-container">
+        <header>
+            <h1>プラレールタイムズ</h1>
+            <p>第4面：市場を掴む戦略</p>
+        </header>
+
+        <div class="main-content">
+            <div class="article">
+                <h2>📊 競合分析と市場機会</h2>
+                <p>Amazonで人気の「デジ基地」ブランドなどを徹底分析。価格帯、素材、レビューを調査し、100円台の安価な製品から7000円台の高価格帯まで、幅広い需要があることを確認。木目調という独自性で差別化を図ります。</p>
+                <svg class="infographic" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 20 80 L 180 80" stroke="#ccc" stroke-width="2"/>
+                    <rect x="30" y="60" width="20" height="20" fill="#dc3545"/>
+                    <text x="40" y="90" font-size="8" text-anchor="middle">100円~</text>
+                    <rect x="80" y="40" width="20" height="40" fill="#ffc107"/>
+                    <text x="90" y="90" font-size="8" text-anchor="middle">~3000円</text>
+                    <rect x="130" y="20" width="20" height="60" fill="#28a745"/>
+                    <text x="140" y="90" font-size="8" text-anchor="middle">~7000円</text>
+                    <text x="100" y="10" font-size="10" text-anchor="middle">価格帯別 販売数</text>
+                </svg>
+            </div>
+
+            <div class="article">
+                <h2>📣 ファンを巻き込むブランディング</h2>
+                <p>販売チャネルはAmazonと自社ECのハイブリッド。さらに、プラレール系YouTuberやタレントとのタイアップを企画。商品の魅力を伝える動画や、雑誌風のサブ画像を制作し、ファンの心を掴むプロモーションを展開します。</p>
+                <svg class="infographic" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                    <text x="50" y="40" font-size="20" text-anchor="middle">🛒</text>
+                    <text x="50" y="60" font-size="10" text-anchor="middle">販売</text>
+                    <text x="100" y="30" font-size="10" text-anchor="middle">+</text>
+                    <text x="150" y="40" font-size="20" text-anchor="middle">▶️</text>
+                    <text x="150" y="60" font-size="10" text-anchor="middle">YouTuber</text>
+                    <text x="100" y="80" font-size="20" text-anchor="middle">✨</text>
+                </svg>
+            </div>
+        </div>
+
+        <nav>
+            <a href="index.html">1: フロント</a>
+            <a href="page2.html">2: 商品仕様</a>
+            <a href="page3.html">3: 生産体制</a>
+            <a href="page4.html">4: 販売戦略</a>
+            <a href="page5.html">5: 全体像</a>
+        </nav>
+    </div>
+
+</body>
+</html>
