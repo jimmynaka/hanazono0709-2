@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品と製造 - プロジェクト概要</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>商品と製造</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">トップ</a></li>
+                <li><a href="product.html" class="active">商品と製造</a></li>
+                <li><a href="market.html">市場と販売</a></li>
+                <li><a href="business.html">契約と流れ</a></li>
+                <li><a href="timeline.html">時系列</a></li>
+                <li><a href="summary.html">まとめ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="product-specs">
+            <h2>商品仕様と調達計画</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>カラー検討</h3>
+                    <p>黄色・白色・青色を検討。特に青色は水色調の調査が重要。</p>
+                    <!-- ここにカラーパレットのイラスト -->
+                </div>
+                <div class="grid-item">
+                    <h3>購入品確認</h3>
+                    <p>既存のAmazon商品（プラレールレールジョイント）を参考に仕様を決定。</p>
+                    <img src="images/product.svg" alt="参考商品" class="icon">
+                </div>
+                <div class="grid-item">
+                    <h3>素材試作</h3>
+                    <p>木製フィラメントやウッドチップ入りPLAを使用し、木目テイストを訴求。</p>
+                    <img src="images/texture.svg" alt="木目テクスチャ" class="icon">
+                </div>
+            </div>
+        </section>
+        <section id="production-system">
+            <h2>試作・製造体制</h2>
+            <div class="flow-chart">
+                <div class="flow-item">
+                    <p>現物郵送</p>
+                    <span>&#8595;</span>
+                </div>
+                <div class="flow-item">
+                    <p>CAD測定</p>
+                    <span>&#8595;</span>
+                </div>
+                <div class="flow-item">
+                    <p>3Dモデル作成</p>
+                    <span>&#8595;</span>
+                </div>
+                <div class="flow-item">
+                    <p>試作</p>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>生産量</h3>
+                    <p>小ロットから開始し、将来的には1000個規模も視野に入れる。</p>
+                </div>
+                <div class="grid-item">
+                    <h3>分散生産</h3>
+                    <p>内職（花園さん）や障害者施設と連携し、多数の3Dプリンターで生産。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 プロジェクトチーム</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
